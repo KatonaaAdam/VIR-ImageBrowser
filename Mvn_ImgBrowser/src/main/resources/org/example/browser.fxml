@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="495.0" prefWidth="708.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.BrowserController">
+   <children>
+      <Pane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="460.0" prefWidth="664.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ListView fx:id="imgListView" layoutX="14.0" layoutY="33.0" prefHeight="426.0" prefWidth="200.0" />
+            <Button fx:id="nextBtn" layoutX="643.0" layoutY="434.0" mnemonicParsing="false" onAction="#nextAction" text="Next" />
+            <ImageView fx:id="imgView" fitHeight="368.0" fitWidth="478.0" layoutX="227.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@default.png" />
+               </image></ImageView>
+            <Button fx:id="backBtn" layoutX="236.0" layoutY="434.0" mnemonicParsing="false" onAction="#backAction" text="Back" />
+            <Label fx:id="imgNameLabel" layoutX="390.0" layoutY="432.0" text="Name">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Button fx:id="logoutBtn" layoutX="14.0" layoutY="459.0" mnemonicParsing="false" onAction="#logoutAction" prefHeight="25.0" prefWidth="200.0" text="Log out" />
+            <Button fx:id="updateUser" layoutX="14.0" layoutY="1.0" mnemonicParsing="false" onAction="#permissionUserAction" prefHeight="30.0" prefWidth="96.0" text="Update role" />
+            <Button fx:id="deleteUser" layoutX="112.0" layoutY="1.0" mnemonicParsing="false" onAction="#deleteUserAction" prefHeight="30.0" prefWidth="102.0" text="Delete user" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
