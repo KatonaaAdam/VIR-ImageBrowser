@@ -9,9 +9,6 @@ Készítsünk egy asztali Java alkalmazást, ami felhasználói bejelentkezést 
 | Username  | password |
 | ------------- | ------------- |
 | admin  | admin123  |
-| ------------- | ------------- |
 | adam  | adam123  |
-| ------------- | ------------- |
 | peter  | peter123  |
-| ------------- | ------------- |
 | jani  | jani123  |
